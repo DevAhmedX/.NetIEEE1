@@ -29,6 +29,10 @@ namespace Practise
                 {
                     this._score = 0;
                 }
+                else
+                {
+                    this.Score = value;
+                }
             }
             get
             {

@@ -34,6 +34,11 @@ namespace Practise
             }
         }
 
+        public double CalculateAverage(List<Student> students)
+        {
+            return students.Count > 0 ? students.Average(s => s.Score) : 0.0;
+        }
+
         //public double CalcAverage(List<Student> students, Func<List<Student>, double> average)
         //{
 
